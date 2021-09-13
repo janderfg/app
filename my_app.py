@@ -2,7 +2,7 @@
 import streamlit as st
 import seaborn as sns
 import pandas as pd
-from PIL import Image
+# from PIL import Image
 import numpy as np
 
 # Write a page title
@@ -42,9 +42,9 @@ st.write('st.write("text", df)', df.head(3))
 
 # Insert a picture
 # First, read it with PIL
-image = Image.open('/home/jander/Dropbox/Linux - FCD/Streamlit_Logo.png')
+# image = Image.open('/home/jander/Dropbox/Linux - FCD/Streamlit_Logo.png')
 # Load Image in the App
-st.image(image)
+# st.image(image)
 
 
 # Add Lat Long
